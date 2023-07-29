@@ -9,4 +9,4 @@ print(df)
 df_fees=df['Fees'].map(lambda x:x*2)
 print("After multiplying \n", df_fees)
 print("After filtering")
-
+print('map, filter,reduce')
